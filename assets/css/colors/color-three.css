@@ -1,0 +1,93 @@
+.ball-scale-multiple>div,
+.single-service:hover i,
+.screenshot-wrap .owl-nav div:hover,
+.testimonial-wrap .owl-nav div:hover,
+span.standered-mark,
+.pricing-btn:hover,
+.standard .pricing-btn,
+.subscribe-area,
+.download-area:before,
+.contact-btn,
+ul.social-profiles li:hover a,
+.scrollTop,
+ul.tab-list li.active:before,
+.msg-box .alert,
+.navbar-toggle .icon-bar,
+.screenshot-wrap i.slick-arrow:hover {
+    background-color: #1B81DD;
+}
+
+button.switcher-control,
+/*.mainmenu ul.navbar-nav li:hover a,
+.mainmenu ul.navbar-nav li.active a,*/
+.single-service h4,
+.single-feature h4,
+.app-desc h3,
+.app-list i,
+.section-title h3,
+.single-feature:hover i,
+.explore-btn:nth-child(2n),
+.explore-btn:hover,
+.screenshot-wrap .owl-nav div,
+ul.rating li i,
+.testimonial-wrap .owl-nav div,
+.slide-content-wrap .owl-nav div:hover i,
+.subscribe-form button,
+.contact-area h4,
+.contact-btn:hover,
+.contact-area h4,
+ul.address li i,
+ul.social-profiles li a,
+.scrollTop:hover,
+.tab-content h4,
+.tab-content i,
+.screenshot-wrap i.slick-arrow {
+    color: #1B81DD;
+}
+
+button.switcher-control,
+.screenshot-wrap .owl-nav div,
+.testimonial-heading img.img-circle,
+ul.tab-list li img.img-circle,
+.testimonial-wrap .owl-nav div,
+.scrollTop:hover,
+.screenshot-wrap i.slick-arrow {
+    border: 2px solid #1B81DD;
+}
+
+.navbar-toggle {
+    border: 1px solid #1B81DD;
+    margin-top: -40px;
+}
+
+@media only screen and (max-width: 767px) {
+/*=========== BOOTSTRAP NAVBAR CSS =============
+===============================================*/
+    ul.navbar-nav, .slide-content-wrap .owl-nav div {
+        background-color: #1B81DD;
+    }
+    .mainmenu ul.navbar-nav li:hover a,
+    .mainmenu ul.navbar-nav li.active a {
+        color: #fff;
+    }
+    .slide-content-wrap .owl-nav div:hover{
+        border: 2px solid #1B81DD;
+    }
+}
+
+.tab-content .social-profiles li:hover a i,
+.pricing-btn:hover,
+.msg-box {
+    color: #fff;
+}
+
+.single-promo-wrap:before,
+.video-content-wrap:before,
+.single-slide-item:before {
+    /*background-color: rgba(27, 129, 221, .5);*/
+    background-color: rgba(27, 129, 221, .1);
+}
+
+.single-service:hover i {
+    box-shadow: 0 0 0 10px rgba(27, 129, 221, .3);
+}
