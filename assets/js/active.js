@@ -200,6 +200,7 @@ File           : Active.js
                     centerMode: true,
                     prevArrow: '<i class="fa fa-angle-left"></i>',
                     nextArrow: '<i class="fa fa-angle-right"></i>',
+                    variableWidth: true,
                     responsive: [{
 
                       breakpoint: 768,

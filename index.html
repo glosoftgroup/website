@@ -113,7 +113,8 @@
                                     <div class="promo-desc owl-content">
                                         <h3>We develop software to develop your business.</h3>
                                         <p>With a well skilled committed team in realizing excellence in service delivery, <br /> <b>&ldquo;We develop, you prosper&rdquo;</b></p>
-                                        <a href="assets/php/app.zip" class="btn explore-btn"><i class="fa fa-envelope"></i> Contact</a>
+                                        <!-- <a href="assets/php/app.zip" class="btn explore-btn"><i class="fa fa-envelope"></i> Contact</a> -->
+                                        <a class="btn explore-btn section-scroll" href="#contact"><i class="fa fa-envelope"></i> contact</a>
                                     </div>
                                 </div>
                                 <div class="col-md-5 col-sn-12">
@@ -315,7 +316,7 @@
     <!--    [  End Download Area] -->
 
     <!--    [Start Screenshot Area] -->
-    <section class="screenshot-area section-padding" id="screenshot">
+    <section class="screenshot-area slick-section-padding" id="screenshot">
        <div class="container">
            <div class="row">
                <div class="col-sm-12 text-center">
@@ -330,32 +331,32 @@
         <div class="screenshot-wrap">
             <!--    [Start Single Screenshot] -->
             <div class="single-screenshot">
-                <img src="assets/images/screenshot-1.jpg" alt="">
+                <img src="assets/images/screenshot-1.jpg" alt="" style="height:300px;width:auto;">
             </div>
             <!--    [  End Single Screenshot] -->
             <!--    [Start Single Screenshot] -->
             <div class="single-screenshot">
-                <img src="assets/images/screenshot-2.jpg" alt="">
+                <img src="assets/images/screenshot-2.jpg" alt="" style="height:300px;width:auto;">
             </div>
             <!--    [  End Single Screenshot] -->
             <!--    [Start Single Screenshot] -->
             <div class="single-screenshot">
-                <img src="assets/images/screenshot-3.jpg" alt="">
+                <img src="assets/images/screenshot-3.jpg" alt="" style="height:300px;width:auto;">
             </div>
             <!--    [  End Single Screenshot] -->
             <!--    [Start Single Screenshot] -->
             <div class="single-screenshot">
-                <img src="assets/images/screenshot-4.jpg" alt="">
+                <img src="assets/images/screenshot-4.jpg" alt="" style="height:300px;width:auto;">
             </div>
             <!--    [  End Single Screenshot] -->
             <!--    [Start Single Screenshot] -->
             <div class="single-screenshot">
-                <img src="assets/images/screenshot-5.jpg" alt="">
+                <img src="assets/images/screenshot-5.jpg" alt="" style="height:300px;width:auto;">
             </div>
             <!--    [  End Single Screenshot] -->
             <!--    [Start Single Screenshot] -->
             <div class="single-screenshot">
-                <img src="assets/images/screenshot-6.jpg" alt="">
+                <img src="assets/images/screenshot-6.jpg" alt="" style="height:300px;width:auto;">
             </div>
             <!--    [  End Single Screenshot] -->
         </div>
@@ -364,7 +365,7 @@
 
 
     <!--    [Start Team Area] -->
-    <section class="team-area section-padding" id="team">
+    <section class="team-area team-section-padding" id="team">
         <div class="container">
             <div class="row">
                <div class="col-sm-12 text-center">
@@ -502,7 +503,7 @@
 
     <!--    [  End Map Area] -->
     <section class="map-area">
-        <div id="map"></div>
+        <div id="map" style="background-color:#EFEFEF;"></div>
 
         <!--    Start Contact-->
         <div class="contact-area" id="contact">
@@ -510,15 +511,12 @@
                 <div class="row">
                     <div class="col-md-8 col-sm-12">
                         <div class="contact-form">
-                            <form action="assets/php/mail.php" method="post" enctype="multipart/form-data">
+                            <form id="commentForm" action="" method="post" enctype="multipart/form-data">
                                 <h4>leave a comment</h4>
                                 <div class="row">
                                     <div class="msg-box"></div>
-                                    <div class="col-md-6 form-group">
-                                        <input type="text" name="fname" class="form-control" placeholder="First Name">
-                                    </div>
-                                    <div class="col-md-6 form-group">
-                                        <input type="text" name="lname" class="form-control" placeholder="Last Name">
+                                    <div class="col-md-12 form-group">
+                                        <input type="text" name="lname" class="form-control" placeholder="Name">
                                     </div>
                                     <div class="col-md-6 form-group">
                                         <input type="text" name="subject" class="form-control" placeholder="Subject">
@@ -539,11 +537,12 @@
                     <div class="col-md-4 col-sm-12">
                         <div class="contact-desc">
                             <h4>get in touch</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi eget leo.</p>
+                            <p>We are always available to respond to your questions.</p>
                             <ul class="address text-capitalize">
-                                <li><i class="icofont icofont-location-pin"></i>25 hill street,London RTL NW.</li>
-                                <li><i class="icofont icofont-phone"></i>00  123  456  789.</li>
-                                <li><i class="icofont icofont-envelope"></i>Info@webmail.com</li>
+                                <li><i class="icofont icofont-location-pin"></i>P.O. Box 6288 - 00300, Nairobi.</li>
+                                <li><i class="icofont icofont-phone"></i>(+254) 711 727778.</li>
+                                <li><i class="icofont icofont-mobile-phone"></i>(+254) 715 690 530.</li>
+                                <li><i class="icofont icofont-envelope"></i>info@glosoftgroup.com</li>
                             </ul>
                             <ul class="social-profiles">
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -566,52 +565,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-capitalize text-center wow fadeInUp" data-wow-delay=".1s">
-                    &copy; copyrignt templatehut 2017 | all rights reserved.
+                    &copy; copyright GlosoftGroup 2017 | all rights reserved.
                 </div>
             </div>
         </div>
         <a href="#" class="scrollTop"><i class="icofont icofont-stylish-up"></i></a>
     </footer>
     <!--      [End Footer Area] -->
-
-    <div class="switcher hidden">
-        <button class="switcher-control"><i class="fa fa-cog fa-spin"></i></button>
-        <h4>Choose Demo Colors</h4>
-        <ul class="colors">
-            <li><a href="#" class="colorOne"></a></li>
-            <li><a href="#" class="colorTwo"></a></li>
-            <li><a href="#" class="colorThree"></a></li>
-            <li><a href="#" class="colorFour"></a></li>
-            <li><a href="#" class="colorFive"></a></li>
-            <li><a href="#" class="colorSix"></a></li>
-            <li><a href="#" class="colorSeven"></a></li>
-            <li><a href="#" class="colorEight"></a></li>
-        </ul>
-        <h4> Select Versions</h4>
-        <ul class="demo-page">
-            <li>
-                <a href="index.html">
-                    <img src="assets/images/01.jpg" alt="">
-                    <strong>Parallax version</strong>
-                </a>
-            </li>
-
-            <li>
-                <a href="index-slider.html">
-                    <img src="assets/images/02.jpg" alt="">
-                    <strong>Slider version</strong>
-                </a>
-            </li>
-
-            <li>
-                <a href="index-youtube.html">
-                    <img src="assets/images/03.jpg" alt="">
-                    <strong>Youtube Version</strong>
-                </a>
-            </li>
-
-        </ul>
-    </div>
 
 
     <!--    [jQuery]-->
@@ -631,9 +591,14 @@
     <!--    [Wow Js]-->
     <script src="assets/js/wow.min.js"></script>
     <!--    [Google Map Js]-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqFEt-Fb6LtYGVPuxwHbY_BiqGI8I8fHI"></script>
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqFEt-Fb6LtYGVPuxwHbY_BiqGI8I8fHI"></script> -->
     <!--    [Active Js] -->
+    <script src="assets/js/smtp.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
     <script src="assets/js/active.js"></script>
+    <script>
+    // $("#commentForm").validate();
+    </script>
 
 </body>
 </html>

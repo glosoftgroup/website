@@ -183,8 +183,13 @@ ul.tab-list li.active,
 */
 
 .section-padding {
-    /*padding: 80px 0;*/
     padding:30px 0;
+}
+.slick-section-padding {
+    padding:30px 0px 50px;
+}
+.team-section-padding {
+    padding:50px 0px 30px;
 }
 
 .section-title h3 {
@@ -345,9 +350,11 @@ ul.tab-list li.active {
 
 /*.screenshot-wrap,*/
 .testimonial-wrap,
-.pricing-wrap,
-.team-wrap {
+.pricing-wrap {
     margin-top: 60px;
+}
+.team-wrap {
+    margin-top: 10px;
 }
 
 
@@ -738,7 +745,7 @@ ul.tab-list li.active {
 .single-service h4{color:#666 !important}
 .single-service h4,
 .single-feature h4 {
-    margin: 20px 0;
+    margin: 10px 0;
 }
 
 .single-service:hover i {
@@ -784,7 +791,7 @@ ul.tab-list li.active {
 */
 
 .single-feature {
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 0 18px;
 }
 
@@ -840,8 +847,8 @@ ul.tab-list li.active {
 */
 
 .screenshot-wrap .slick-list {
-  padding-bottom: 100px !important;
-  padding-top: 100px !important;
+  padding-bottom: 43px !important;
+  padding-top: 60px !important;
 }
 .single-screenshot {
   z-index: 1;
@@ -1259,13 +1266,13 @@ ul.tab-list li.active:before {
 
 .contact-area {
     position: absolute;
-    top: 165px;
+    top: 115px;
     left: 0;
     right: 0;
 }
 
 .map-area {
-    padding: 80px 0 0;
+    padding: 40px 0 0;
 }
 
 .contact-form,
@@ -1325,7 +1332,7 @@ ul.tab-list li.active:before {
 }
 
 .contact-desc p {
-    margin: 48px 0;
+    margin: 28px 0;
     color: #242424;
 }
 
